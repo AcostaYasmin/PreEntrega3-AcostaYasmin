@@ -1,0 +1,578 @@
+.css-button-sliding-to-left--sand {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #adb5bd;
+  color: #adb5bd;
+}
+
+.css-button-sliding-to-left--sand:hover {
+  color: #fff;
+}
+
+.css-button-sliding-to-left--sand:hover:after {
+  width: 100%;
+}
+
+.css-button-sliding-to-left--sand:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #adb5bd;
+}
+
+.navFooter {
+  background-color: palevioletred;
+}
+.navFooter li {
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+.navFooter li a {
+  color: #000;
+  text-decoration: none;
+}
+.navFooter li a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.footerIndex {
+  background-color: palevioletred;
+  margin-top: 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerIndex .redSocial {
+  width: 30px;
+  height: 30px;
+}
+
+.imgSocial {
+  width: 30px;
+  height: 30px;
+}
+
+.navFooter li {
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+.navFooter li a {
+  color: #000;
+  text-decoration: none;
+}
+.navFooter li a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.footerIndex {
+  background-color: palevioletred;
+  margin-top: 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerIndex .redSocial {
+  width: 30px;
+  height: 30px;
+}
+
+@media (min-width: 768px) {
+  .navFooter {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: palevioletred;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainMenu {
+  margin: 0;
+  padding: 0;
+}
+.mainMenu li {
+  list-style: none;
+  display: flex;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+.mainMenu li a {
+  color: #000;
+  text-decoration: none;
+}
+.mainMenu li a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.logo_inicio {
+  height: 85px;
+  width: 95px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.imagenContainer {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.imgIzquierda {
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 10px;
+  height: 250px;
+  width: 250px;
+}
+
+.imgCentro {
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid white;
+  width: 350px;
+  height: 350px;
+  box-shadow: 10px;
+}
+
+.imgFlechas {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 10px;
+}
+
+.containerImg {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 100vw;
+  justify-content: space-around;
+  position: absolute;
+  top: 3opx;
+  left: 60px;
+}
+
+.miLogo {
+  height: 85px;
+  width: 95px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.imgMural {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  height: 250px;
+}
+
+.divMurales {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10px;
+}
+
+.muralExterior {
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+}
+.muralExterior .d-nonesm {
+  display: block;
+}
+.muralExterior .mixImage {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+article .imgZorro {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*mobile firts*/
+.mainMenu {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.iniciaSesion {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.articleMurales {
+  display: grid;
+}
+.articleMurales .divMurales {
+  display: grid;
+}
+
+.biografiaContainer {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.imgBio {
+  width: 250px;
+  height: 250px;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+}
+#main .imgYasmin {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 350px;
+  height: 350px;
+  justify-self: center;
+  align-self: center;
+}
+#main .imgYasmin .sectionContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-self: center;
+  justify-self: center;
+  background-color: beige;
+}
+#main .imgYasmin .sectionContainer .articleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.headerGrid {
+  display: grid;
+  background-color: palevioletred;
+}
+
+.navInicio {
+  display: grid;
+}
+
+.menu {
+  display: grid;
+}
+
+.header {
+  display: grid;
+}
+.header .nav {
+  display: grid;
+}
+.header .div {
+  display: grid;
+}
+
+.sectionBib {
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .backgroundForm {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+  }
+  .preguntasFrec {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+  }
+  .sectionArticle {
+    display: grid;
+    justify-content: center;
+  }
+  .article2 {
+    display: flex;
+  }
+  .article1 {
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+  }
+  .navInicio {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+    background-color: palevioletred;
+    width: 100%;
+  }
+  .mainMenu {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+  }
+  .headerGrid {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+  }
+  .menu {
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+  }
+  .iniciaSesion {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    justify-self: center;
+  }
+  #main {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+  }
+  #main .home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #main .home .tituloBackground {
+    background-color: burlywood;
+  }
+  #main .navInicio {
+    display: flex;
+  }
+  #main .mainMenu {
+    display: flex;
+  }
+  #main .headerGrid {
+    display: flex;
+  }
+  #main .menu {
+    display: grid;
+  }
+  #main .imagenContainer {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: beige;
+    height: 400px;
+  }
+  #main .imagenContainer .imagDesktop .imgYasmin {
+    display: flex;
+    border-radius: 50px;
+    border: 1px solid white;
+    box-shadow: 10px;
+    width: 350px;
+    height: 350px;
+  }
+  #main .imagenContainer .imagDesktop .d-nonesm {
+    display: block;
+  }
+  .backgroundText {
+    display: flex;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+  }
+  .sectionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../imag/geometric-leaves.webp);
+  }
+  .sectionContainer .articleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .biografiaConteiner .tituloBackground {
+    background-color: beige;
+  }
+  .biografiaConteiner .bioContainer {
+    display: flex;
+    vertical-align: center;
+    position: relative;
+    justify-content: stretch;
+  }
+  .biografiaConteiner .bioContainer .imgBio {
+    display: flex;
+    margin: 40px;
+    height: auto;
+    width: 600px;
+    border-radius: 20px;
+    align-items: center;
+  }
+  .biografiaConteiner .bioContainer .textBio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  #muralCountainer .bakcgroundTitulo {
+    display: flex;
+    background-color: beige;
+  }
+  .listacontairMural {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    list-style: none;
+  }
+  .imgDecorativa {
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    margin-bottom: 35px;
+  }
+}
+#form {
+  border: 1px solid palevioletred;
+  width: 450px;
+  margin: auto;
+}
+
+#form legend {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#form ol {
+  list-style: none;
+}
+
+#form ol li {
+  padding-bottom: 5px;
+}
+
+#form ol li label {
+  width: 120px;
+  float: left;
+  text-align: left;
+}
+
+#form input[type=text] {
+  border: 1px solid #CCCCCC;
+}
+
+#form input.btn {
+  padding: 3px;
+  color: #FFFFFF;
+  background-color: palevioletred;
+  border: 1px solid #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--font-color);
+}
+
+.container__faq {
+  width: 1200px;
+  margin: auto;
+}
+
+.text__faq {
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 100px 20px;
+  margin-bottom: 50px;
+}
+
+.text__faq h2 {
+  font-family: var(--font);
+  font-size: 56px;
+  letter-spacing: 5px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.container__lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container__column1,
+.container__column2 {
+  width: 500px;
+}
+
+dt {
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

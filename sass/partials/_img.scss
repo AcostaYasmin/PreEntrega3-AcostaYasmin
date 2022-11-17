@@ -1,0 +1,87 @@
+.logo_inicio{
+    height: 85px;
+    width: 95px;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.imagenContainer{
+    display: flex;
+    margin:10px;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+.imgIzquierda{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 10px;
+    height: 250px;
+    width: 250px;
+}
+.imgCentro{
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 350px;
+    height: 350px;
+    box-shadow:10px;
+    }
+.imgFlechas{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 10px;
+}
+
+.containerImg{
+    display: flex;
+    flex-direction:row;
+    height: 400px;
+    width: 100vw;
+    justify-content: space-around;
+    position: absolute;
+    top: 3opx;
+    left:60px;
+}
+.miLogo{
+    height: 85px;
+    width: 95px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.imgMural{
+    display: flex;
+    margin: 20px;
+    justify-content:center;
+    height: 250px;
+}
+.divMurales{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;}
+    .muralExterior{
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        .d-nonesm{
+            display: block;
+        }
+    .mixImage{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+        }
+    }
+    article{
+    .imgZorro{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        align-items: center;
+        justify-content:space-between;
+    }}
+

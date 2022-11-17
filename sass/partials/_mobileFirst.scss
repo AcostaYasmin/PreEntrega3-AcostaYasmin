@@ -1,0 +1,257 @@
+/*mobile firts*/
+.mainMenu{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.iniciaSesion{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.articleMurales{
+    display: grid;
+    .divMurales{
+        display: grid;
+    }
+}
+.biografiaContainer{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.imgBio{
+    width: 250px;
+    height: 250px;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    .imgYasmin{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 350px;
+        height: 350px;
+        justify-self:center;
+        align-self: center;
+    .sectionContainer{
+        display:grid;
+        grid-template-columns: 1fr;
+        align-self:center;
+        justify-self: center;
+        background-color: beige;
+        .articleContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            border: 1px solid black;
+            height: 300px;
+            width: 300px;
+            padding: 30px;
+            border-radius: 20px;
+        }
+    }
+}
+}
+.headerGrid{
+    display: grid;
+    background-color: palevioletred;
+}
+.navInicio{
+    display: grid;
+}
+.menu{
+    display: grid;
+}
+.header{
+    display: grid;
+    .nav{
+        display: grid;
+    }
+    .div{
+        display: grid;
+    }
+}
+
+.sectionBib{
+    display: grid;
+}
+
+
+@media (min-width:768px){
+    .backgroundForm{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    .preguntasFrec{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    .sectionArticle{
+        display: grid;
+        justify-content: center;
+    }
+    .article2{
+        display: flex;
+    }
+    .article1{
+        justify-content: center;
+        justify-items: center;
+        display: grid;
+    }
+    .navInicio{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        justify-self: center;
+        background-color: palevioletred;
+        width: 100%;
+    }
+    .mainMenu{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        justify-self: center;
+    }
+    .headerGrid{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        justify-self: center;
+    }
+    .menu{
+        display: grid;
+        justify-content: space-around;
+        justify-items: center;
+        justify-self: center;
+    }
+    .iniciaSesion{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        justify-self: center;
+    }
+    #main{
+        display:flex;
+        justify-content: space-around;
+        align-self: center; 
+            .home{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .tituloBackground{
+                background-color: burlywood;
+                }
+            }
+        .navInicio{
+            display: flex;
+        }
+        .mainMenu{
+            display: flex;
+        }
+        .headerGrid{
+            display: flex;
+        }
+        .menu{
+            display: grid;
+        }
+        .imagenContainer{ 
+            display: flex;
+            margin:10px;
+            align-items: center;
+            justify-content: space-around;
+            background-color: beige;
+            height: 400px;
+            .imagDesktop{
+                .imgYasmin{
+                display: flex;
+                border-radius: 50px;
+                border: 1px solid white;
+                box-shadow:10px;
+                width: 350px;
+                height: 350px;
+            }
+                .d-nonesm{
+                    display: block;
+                }
+            }
+        }
+        }
+        .backgroundText{
+            display: flex;
+            
+            height: auto;
+            margin: 10px 10px 10px 10px;
+            }    
+        .sectionContainer{
+            display:flex;
+        align-items:center;
+        justify-content: space-around;
+        background-image: url(../imag/geometric-leaves.webp);
+        .articleContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            border: 1px solid black;
+            height: 300px;
+            width: 300px;
+            padding: 30px;
+            border-radius: 20px;
+            }
+        }
+    .biografiaConteiner{
+        .tituloBackground{
+            background-color: beige;
+        }
+        .bioContainer{
+        display: flex;
+        vertical-align: center;
+        position:relative;
+        justify-content: stretch;
+            .imgBio {
+            display: flex;
+            margin: 40px;
+            height: auto;
+            width:600px;
+            border-radius: 20px;
+            align-items: center;
+            }
+            .textBio {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-around;
+            border: 1px solid black;
+            height: 400px;
+            width: 400px;
+            padding: 30px;
+            border-radius: 20px;
+            }
+        }
+    }
+    #muralCountainer{
+    .bakcgroundTitulo{
+        display: flex;
+        background-color: beige;
+    }
+    }
+    .listacontairMural{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 10px;
+        align-items: center;
+        list-style: none;
+    }
+    .imgDecorativa{
+        justify-content: center;
+        justify-items: center;
+        display: grid;
+        margin-bottom: 35px;
+    }
+}
